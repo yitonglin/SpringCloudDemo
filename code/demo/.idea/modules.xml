@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../springboot-user/springboot-user.iml" filepath="$PROJECT_DIR$/../springboot-user/springboot-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yitonglin-eureka/yitonglin-eureka.iml" filepath="$PROJECT_DIR$/yitonglin-eureka/yitonglin-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yitonglin-eureka2/yitonglin-eureka2.iml" filepath="$PROJECT_DIR$/yitonglin-eureka2/yitonglin-eureka2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yitonglin-service-consumer/yitonglin-service-consumer.iml" filepath="$PROJECT_DIR$/yitonglin-service-consumer/yitonglin-service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yitonglin-service-provider/yitonglin-service-provider.iml" filepath="$PROJECT_DIR$/yitonglin-service-provider/yitonglin-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../yitonglin-springboot/yitonglin-springboot.iml" filepath="$PROJECT_DIR$/../yitonglin-springboot/yitonglin-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yitonglin-zuul/yitonglin-zuul.iml" filepath="$PROJECT_DIR$/yitonglin-zuul/yitonglin-zuul.iml" />
+    </modules>
+  </component>
+</project>

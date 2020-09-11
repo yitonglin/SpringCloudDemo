@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yitonglin-service-consumer" />
+        <module name="yitonglin-eureka2" />
+        <module name="springboot-user" />
+        <module name="yitonglin-zuul" />
+        <module name="yitonglin-eureka" />
+        <module name="yitonglin-service-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-user" target="1.8" />
+      <module name="yitonglin-eureka" target="11" />
+      <module name="yitonglin-eureka2" target="11" />
+      <module name="yitonglin-service-consumer" target="11" />
+      <module name="yitonglin-service-provider" target="11" />
+      <module name="yitonglin-springboot" target="1.8" />
+      <module name="yitonglin-user" target="1.8" />
+      <module name="yitonglin-zuul" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-user" options="-parameters" />
+      <module name="yitonglin-eureka" options="-parameters" />
+      <module name="yitonglin-eureka2" options="-parameters" />
+      <module name="yitonglin-service-consumer" options="-parameters" />
+      <module name="yitonglin-service-provider" options="-parameters" />
+      <module name="yitonglin-springboot" options="-parameters" />
+      <module name="yitonglin-user" options="-parameters" />
+      <module name="yitonglin-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

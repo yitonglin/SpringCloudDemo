@@ -1,0 +1,12 @@
+server:
+  port: 10086 # �˿�
+spring:
+  application:
+    name: eureka-server # Ӧ�����ƣ�����Eureka����ʾ
+eureka:
+  client:
+    service-url: # EurekaServer�ĵ�ַ���������Լ��ĵ�ַ������Ǽ�Ⱥ����Ҫ��������Server�ĵ�ַ��
+      defaultZone: http://127.0.0.1:10087/eureka
+  server:
+    enable-self-preservation: false #关闭自我保护模式  （自我保护模式为当服务出问题时不会立即剔除服务而是先在注册中心报红提示，当默认三十分钟后才会剔除）
+    eviction-interval-timer-in-ms: 1000 #扫描失效服务的间隔时间（缺省为60*1000ms）

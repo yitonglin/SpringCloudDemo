@@ -1,0 +1,19 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: api-zuul
+zuul:
+  routes:
+    service-provider: /service-provider/**   #luyou ID
+    service-consumer: /service-consumer/**   #luyou ID
+
+      #path: /service-provider/**  #mapper path
+      #url: http://127.0.0.1:8081  #mapper path url
+      #erviceId: service-provider # service name
+  prefix: /api #qianzhui
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5 #get eureka service list 5s
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka

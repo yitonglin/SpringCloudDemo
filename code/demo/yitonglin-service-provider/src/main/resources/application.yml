@@ -1,0 +1,19 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/news?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT
+    username: root
+    password: 521125
+  application:
+    name: service-provider  #应用名称，注册到Eureka的服务名称
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka #EurekaServer地址
+  instance:
+    lease-expiration-duration-in-seconds: 10 #十秒后若没发送心跳反应EurekaServer就会认为该服务宕机，会从服务列表中移除
+    lease-renewal-interval-in-seconds: 5 #向注册中心发送心跳反应
+mybatis:
+  type-aliases-package: com.yitonglin.service.pojo
+
